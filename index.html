@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt Licznika</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <h1>Giercowanko w liczby (Piekło VS Niebo)</h1>
+    <div class="container">
+        <div class="karta1" id="gracz1">
+            <div>Niebo</div>
+            <div class="wynik" id="wynik1">0</div>
+            <div class="button-container">
+                <button id="dodaj1">+</button>
+                <button id="odejmij1">-</button>
+            </div>
+        </div>
+        <div class="karta2" id="gracz2">
+            <div>Piekło</div>
+            <div class="wynik" id="wynik2">0</div>
+            <div class="button-container">
+                <button id="dodaj2">+</button>
+                <button id="odejmij2">-</button>
+            </div>
+        </div>
+    </div>
+    <div class="opcje">
+        <label for="numerek">Gramy do:</label>
+        <input type="number" id="zwyciezca" min="1" value="10">
+        <p id="wygrany">Obecnie wygrywa: -</p>
+    </div>
+    <footer>Strone wykonał: Janek "Snopenes" Snopkowski</footer>
+    <script src="skrypt.js"></script>
+</body>
+
+</html>
